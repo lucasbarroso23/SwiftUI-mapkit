@@ -11,6 +11,7 @@
 		07ADC28C2949C8BF006798E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ADC28B2949C8BF006798E0 /* ContentView.swift */; };
 		07ADC28E2949C8C0006798E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07ADC28D2949C8C0006798E0 /* Assets.xcassets */; };
 		07ADC2912949C8C0006798E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07ADC2902949C8C0006798E0 /* Preview Assets.xcassets */; };
+		07ADC298294A0F70006798E0 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ADC297294A0F70006798E0 /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		07ADC28B2949C8BF006798E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		07ADC28D2949C8C0006798E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07ADC2902949C8C0006798E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		07ADC297294A0F70006798E0 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				07ADC2892949C8BF006798E0 /* mapkitlocationApp.swift */,
 				07ADC28B2949C8BF006798E0 /* ContentView.swift */,
+				07ADC297294A0F70006798E0 /* ContentViewModel.swift */,
 				07ADC28D2949C8C0006798E0 /* Assets.xcassets */,
 				07ADC28F2949C8C0006798E0 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				07ADC28C2949C8BF006798E0 /* ContentView.swift in Sources */,
 				07ADC28A2949C8BF006798E0 /* mapkitlocationApp.swift in Sources */,
+				07ADC298294A0F70006798E0 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +274,7 @@
 				DEVELOPMENT_TEAM = HXG77LVF2P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This is app need your location to show it on the map";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +304,7 @@
 				DEVELOPMENT_TEAM = HXG77LVF2P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This is app need your location to show it on the map";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
